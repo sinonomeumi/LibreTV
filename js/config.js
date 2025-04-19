@@ -38,7 +38,6 @@ const API_SITES = {
     ckzy: {
         api: 'https://www.ckzy1.com',
         name: 'CK资源',
-        adult
     },
     zy360: {
         api: 'https://360zy.com',
@@ -84,37 +83,30 @@ const API_SITES = {
     jkun: {
         api: 'https://jkunzyapi.com',
         name: 'jkun资源',
-        adult: 
     },
     bwzy: {
         api: 'https://api.bwzym3u8.com',
         name: '百万资源',
-        adult: 
     },
     souav: {
         api: 'https://api.souavzy.vip',
         name: 'souav资源',
-        adult: 
     },
     siwa: {
         api: 'https://siwazyw.tv',
         name: '丝袜资源',
-        adult: 
     },
     r155: {
         api: 'https://155api.com',
         name: '155资源',
-        adult: 
     },
     lsb: {
         api: 'https://apilsbzy1.com',
         name: 'lsb资源',
-        adult: 
     },
     huangcang: {
         api: 'https://hsckzy.vip',
         name: '黄色仓库',
-        adult: ,
         detail: 'https://hsckzy.vip' // 添加detail URL以便特殊处理
     }
     // 您可以按需添加更多源
