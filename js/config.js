@@ -198,4 +198,6 @@ const CUSTOM_API_CONFIG = {
 };
 
 // 新增隐藏内置黄色采集站API的变量，默认为true
-const HIDE_BUILTIN_ADULT_APIS = false;
+const filteredSites = Object.values(API_SITES).filter(site => {
+    return HIDE_BUILTIN_ADULT_APIS ? !site.adult : true;
+});
